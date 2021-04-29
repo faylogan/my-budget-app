@@ -15,11 +15,11 @@ class Category:
 
     def check_balance(self, amount):
         #this should return a boolean, it checks if amount is less or greater than self.amount
-        pass
+        return False
 
     def withdraw(self, amount):
         #reverse of deposit
-        self.amount - amount
+        self.amount -= amount
         return "You have successfully withdrawn {} in {} category".format(amount, self.category)
 
 
