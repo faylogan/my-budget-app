@@ -1,7 +1,7 @@
 class Category:
 
     #constructor
-    def__init__(self, category, amount):
+    def __init__(self, category, amount):
         self.category = category
         self.amount = amount
 
@@ -33,7 +33,9 @@ clothing_category = Category("Clothing", 200)
 car_category = Category("Car Payment", 500)
 miscellaneous_category = Category("Miscellaneous", 400)
 
-print(food_category.deposit(250))
+#print(food_category.deposit(250))
 #print(food_category.budget_balance())
+print(food_category.check_balance(60))
 #print(food_category.withdraw(200))
+#print(clothing_category.budget_balance())
 #print(miscellaneous_category.transfer(100, car_category))
